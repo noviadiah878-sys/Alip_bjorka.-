@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset=>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Pribadi Saya</title>
+    <style>
+        /* Gaya Dasar */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: green; /* Warna latar belakang gelap */
+            color: green;
+            text-align: center;
+        }
+
+        /* Bagian Header Biru */
+        header {
+            background-color: black; /* Biru Tua */
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
+            font-weight: lighter;
+        }
+
+        /* Navigasi */
+        nav {
+            background-color: black; /* Biru lebih gelap untuk menu */
+            padding: 15px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            color: green;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Konten Utama */
+        .container {
+            padding: 20px;
+        }
+
+        .visitor-count {
+            margin: 20px 0;
+        }
+
+        .counter-box {
+            background-color: green;
+            padding: 5px 10px;
+            border: 1px solid #77;
+            font-family: 'Courier New', Courier, monospace;
+            display: inline-block;
+            letter-spacing: 2px;
+        }
+
+        /* Kartu Konten */
+        .card {
+            background-color: #000; /* Hitam */
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 500px;
+            text-align: left;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 2em;
+        }
+
+        .card p {
+            line-height: 1.6;
+            color: #ccc;
+        }
+
+        .quote {
+            font-style: italic;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1><a id="Biodata"></a>Biodata</h1>
+        <p></p>
+    </header>
+
+    <!-- Navigasi -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="Biodata.html">Biodata</a> 
+        <a href="Social.html">Social Media</a>
+    </nav>
+
+    <div class="container">
+        <!-- Penghitung Pengunjung -->
+        <div class="visitor-count">
+            <h3>Jumlah Pengunjung:</h3>
+            <div class="counter-box">00389</div>
+        </div>
+
+        <!-- Kartu Home -->
+        <div class="card">
+            <h2>Biodata</h2>
+            <p><strong>Nama :</strong> Alip R</p>
+            <p>saya disini baru pemula</p>
+            <p>...:(</p>
+        </div>
+
+        <!-- Kartu Pesan -->
+        <div class="card">
+            <h2>pesan saya</h2>
+            <p class="quote">"Jangan pernah menyerah"</p>
+        </div>
+    </div>
+
+</body>
+</html>
